@@ -27,6 +27,7 @@ export const metadata: Metadata = {
       url:siteConfig.url
     }
   ], 
+  metadataBase:new URL(siteConfig.url),
   openGraph:{
     type:"website",
     locale:"ja",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     description:siteConfig.description,
     images:[`${siteConfig.url}/og.jpg`],
     creator:"@yh1110"
-  }
+  },
 };
 
 export default function RootLayout({

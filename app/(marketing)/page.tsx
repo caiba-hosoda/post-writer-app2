@@ -113,7 +113,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className=' mx-auto md:max-w-[58rem] text-center' >
+      <div className=' mx-auto md:max-w-[58rem] text-center w-[80%]' >
         <p className='text-muted-foreground sm:text-lg sm:leading-7'>
           Post Writerはログインするとブログ投稿ができるようになります。
         </p>
@@ -121,10 +121,12 @@ const page = () => {
     </section>
 
     <section id='contact' className='container py-8 md:py-12 lg:py-24'>
-      <div className='max-w-[58rem] mx-auto text-center flex flex-col gap-4'>
+      <div className='max-w-[58rem] mx-auto text-center flex flex-col gap-4 w-[90%]'>
         <h2 className=' font-extrabold text-3xl md:text-6xl'>ContanctMe</h2>
         <p className=' text-muted-foreground sm:text-lg sm:leading-7'>
-          もじwebサービスが気に入った場合は下記XからDMにてご連絡ください
+          もしwebサービスが気に入った場合は
+          <br />
+          下記XからDMにてご連絡ください
           <br />
           お仕事のご連絡をお待ちしております。
         </p>
